@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0E339822C34EE200C863F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E339722C34EE200C863F7 /* AppDelegate.swift */; };
+		5B0E339A22C34EE200C863F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E339922C34EE200C863F7 /* ViewController.swift */; };
+		5B0E339D22C34EE200C863F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0E339B22C34EE200C863F7 /* Main.storyboard */; };
+		5B0E339F22C34EE700C863F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0E339E22C34EE700C863F7 /* Assets.xcassets */; };
+		5B0E33A222C34EE700C863F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0E33A022C34EE700C863F7 /* LaunchScreen.storyboard */; };
+		5B0E33AC22C356F900C863F7 /* FactoryCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33AB22C356F900C863F7 /* FactoryCar.swift */; };
+		5B0E33B022C35D2F00C863F7 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33AF22C35D2F00C863F7 /* AbstractFactory.swift */; };
+		5B0E33B322C364AA00C863F7 /* Instances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33B222C364AA00C863F7 /* Instances.swift */; };
+		5B0E33B722C367B500C863F7 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33B622C367B500C863F7 /* Store.swift */; };
+		5B0E33BB22C36E1000C863F7 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33BA22C36E1000C863F7 /* Cell.swift */; };
+		5B0E33BF22C4547700C863F7 /* MediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33BE22C4547700C863F7 /* MediaPlayer.swift */; };
+		5B0E33C322C4587500C863F7 /* Pig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33C222C4587500C863F7 /* Pig.swift */; };
+		5B0E33C722C45D4700C863F7 /* FilterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33C622C45D4700C863F7 /* FilterPattern.swift */; };
+		5B0E33CB22C4636500C863F7 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33CA22C4636500C863F7 /* Composite.swift */; };
+		5B0E33CF22C4681700C863F7 /* MonkeyKing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33CE22C4681700C863F7 /* MonkeyKing.swift */; };
+		5B0E33D322C46CA700C863F7 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33D222C46CA700C863F7 /* Facade.swift */; };
+		5B0E33D722C49FED00C863F7 /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33D622C49FED00C863F7 /* Flyweight.swift */; };
+		5B0E33DB22C4B22500C863F7 /* ProxyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33DA22C4B22500C863F7 /* ProxyPattern.swift */; };
+		5B0E33DF22C4B78400C863F7 /* AbstractLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33DE22C4B78400C863F7 /* AbstractLogger.swift */; };
+		5B0E33E322C4BBDC00C863F7 /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33E222C4BBDC00C863F7 /* CommandPattern.swift */; };
+		5B0E33E722C5A4BD00C863F7 /* Interpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33E622C5A4BD00C863F7 /* Interpreter.swift */; };
+		5B0E33EB22C5A7AD00C863F7 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33EA22C5A7AD00C863F7 /* Iterator.swift */; };
+		5B0E33EF22C5ACBC00C863F7 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33EE22C5ACBC00C863F7 /* Mediator.swift */; };
+		5B0E33F322C5AFDA00C863F7 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33F222C5AFDA00C863F7 /* Memento.swift */; };
+		5B0E33F722C5B33D00C863F7 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33F622C5B33D00C863F7 /* Observer.swift */; };
+		5B0E33FB22C5B84F00C863F7 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33FA22C5B84F00C863F7 /* State.swift */; };
+		5B0E33FF22C5BB2C00C863F7 /* NullObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E33FE22C5BB2C00C863F7 /* NullObject.swift */; };
+		5B0E340322C5BE4100C863F7 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E340222C5BE4100C863F7 /* Strategy.swift */; };
+		5B0E340722C5C09A00C863F7 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E340622C5C09A00C863F7 /* Template.swift */; };
+		5B0E340B22C5C2B500C863F7 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E340A22C5C2B500C863F7 /* Visitor.swift */; };
+		5B0E340F22C5C61D00C863F7 /* MVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E340E22C5C61D00C863F7 /* MVC.swift */; };
+		5B0E341322C5E22900C863F7 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E341222C5E22900C863F7 /* Business.swift */; };
+		5B0E341822C5E60300C863F7 /* CompositeEntityPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E341722C5E60300C863F7 /* CompositeEntityPattern.swift */; };
+		5B0E341C22C5EB5E00C863F7 /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E341B22C5EB5E00C863F7 /* Dao.swift */; };
+		5B0E342022C5EF5700C863F7 /* FrontController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E341F22C5EF5700C863F7 /* FrontController.swift */; };
+		5B0E342422C5F15400C863F7 /* InterceptingFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E342322C5F15400C863F7 /* InterceptingFilter.swift */; };
+		5B0E342A22C5F70C00C863F7 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E342922C5F70C00C863F7 /* ServiceLocator.swift */; };
+		5B0E342E22C5F8DF00C863F7 /* StudentVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E342D22C5F8DF00C863F7 /* StudentVO.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B0E339422C34EE200C863F7 /* Design patterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design patterns.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0E339722C34EE200C863F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B0E339922C34EE200C863F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B0E339C22C34EE200C863F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B0E339E22C34EE700C863F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B0E33A122C34EE700C863F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B0E33A322C34EE700C863F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0E33AA22C34F0B00C863F7 /* 工厂模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "工厂模式.md"; sourceTree = "<group>"; };
+		5B0E33AB22C356F900C863F7 /* FactoryCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryCar.swift; sourceTree = "<group>"; };
+		5B0E33AE22C35B1100C863F7 /* 抽象工厂模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "抽象工厂模式.md"; sourceTree = "<group>"; };
+		5B0E33AF22C35D2F00C863F7 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		5B0E33B222C364AA00C863F7 /* Instances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instances.swift; sourceTree = "<group>"; };
+		5B0E33B522C365B200C863F7 /* 建造者模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "建造者模式.md"; sourceTree = "<group>"; };
+		5B0E33B622C367B500C863F7 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		5B0E33B922C36D3D00C863F7 /* 原型模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "原型模式.md"; sourceTree = "<group>"; };
+		5B0E33BA22C36E1000C863F7 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		5B0E33BD22C4538C00C863F7 /* 适配器模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "适配器模式.md"; sourceTree = "<group>"; };
+		5B0E33BE22C4547700C863F7 /* MediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayer.swift; sourceTree = "<group>"; };
+		5B0E33C122C457D000C863F7 /* 桥接模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "桥接模式.md"; sourceTree = "<group>"; };
+		5B0E33C222C4587500C863F7 /* Pig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pig.swift; sourceTree = "<group>"; };
+		5B0E33C522C45D0D00C863F7 /* 过滤器模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "过滤器模式.md"; sourceTree = "<group>"; };
+		5B0E33C622C45D4700C863F7 /* FilterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPattern.swift; sourceTree = "<group>"; };
+		5B0E33C922C461C800C863F7 /* 组合模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "组合模式.md"; sourceTree = "<group>"; };
+		5B0E33CA22C4636500C863F7 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		5B0E33CD22C466F600C863F7 /* 装饰器模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "装饰器模式.md"; sourceTree = "<group>"; };
+		5B0E33CE22C4681700C863F7 /* MonkeyKing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyKing.swift; sourceTree = "<group>"; };
+		5B0E33D122C46B2300C863F7 /* 外观模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "外观模式.md"; sourceTree = "<group>"; };
+		5B0E33D222C46CA700C863F7 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		5B0E33D522C49AE100C863F7 /* 享元模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "享元模式.md"; sourceTree = "<group>"; };
+		5B0E33D622C49FED00C863F7 /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
+		5B0E33D922C4B19200C863F7 /* 代理模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "代理模式.md"; sourceTree = "<group>"; };
+		5B0E33DA22C4B22500C863F7 /* ProxyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyPattern.swift; sourceTree = "<group>"; };
+		5B0E33DD22C4B72D00C863F7 /* 责任链模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "责任链模式.md"; sourceTree = "<group>"; };
+		5B0E33DE22C4B78400C863F7 /* AbstractLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractLogger.swift; sourceTree = "<group>"; };
+		5B0E33E122C4BB6100C863F7 /* 命令模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "命令模式.md"; sourceTree = "<group>"; };
+		5B0E33E222C4BBDC00C863F7 /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
+		5B0E33E522C5A28900C863F7 /* 解释器模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "解释器模式.md"; sourceTree = "<group>"; };
+		5B0E33E622C5A4BD00C863F7 /* Interpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpreter.swift; sourceTree = "<group>"; };
+		5B0E33E922C5A72000C863F7 /* 迭代器模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "迭代器模式.md"; sourceTree = "<group>"; };
+		5B0E33EA22C5A7AD00C863F7 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		5B0E33ED22C5AC4700C863F7 /* 中介者模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "中介者模式.md"; sourceTree = "<group>"; };
+		5B0E33EE22C5ACBC00C863F7 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		5B0E33F122C5AEA700C863F7 /* 备忘录模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "备忘录模式.md"; sourceTree = "<group>"; };
+		5B0E33F222C5AFDA00C863F7 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		5B0E33F522C5B2C000C863F7 /* 观察者模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "观察者模式.md"; sourceTree = "<group>"; };
+		5B0E33F622C5B33D00C863F7 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		5B0E33F922C5B75D00C863F7 /* 状态模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "状态模式.md"; sourceTree = "<group>"; };
+		5B0E33FA22C5B84F00C863F7 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		5B0E33FD22C5BACA00C863F7 /* 空对象模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "空对象模式.md"; sourceTree = "<group>"; };
+		5B0E33FE22C5BB2C00C863F7 /* NullObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullObject.swift; sourceTree = "<group>"; };
+		5B0E340122C5BDF400C863F7 /* 策略模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "策略模式.md"; sourceTree = "<group>"; };
+		5B0E340222C5BE4100C863F7 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		5B0E340522C5C02B00C863F7 /* 模板模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "模板模式.md"; sourceTree = "<group>"; };
+		5B0E340622C5C09A00C863F7 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		5B0E340922C5C24D00C863F7 /* 访问者模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "访问者模式.md"; sourceTree = "<group>"; };
+		5B0E340A22C5C2B500C863F7 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		5B0E340D22C5C5FB00C863F7 /* MVC模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "MVC模式.md"; sourceTree = "<group>"; };
+		5B0E340E22C5C61D00C863F7 /* MVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC.swift; sourceTree = "<group>"; };
+		5B0E341122C5E20D00C863F7 /* 业务代表模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "业务代表模式.md"; sourceTree = "<group>"; };
+		5B0E341222C5E22900C863F7 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		5B0E341522C5E5C400C863F7 /* 组合实体模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "组合实体模式.md"; sourceTree = "<group>"; };
+		5B0E341722C5E60300C863F7 /* CompositeEntityPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeEntityPattern.swift; sourceTree = "<group>"; };
+		5B0E341A22C5EAF200C863F7 /* 数据访问对象模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "数据访问对象模式.md"; sourceTree = "<group>"; };
+		5B0E341B22C5EB5E00C863F7 /* Dao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dao.swift; sourceTree = "<group>"; };
+		5B0E341E22C5EEE300C863F7 /* 前端控制器模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "前端控制器模式.md"; sourceTree = "<group>"; };
+		5B0E341F22C5EF5700C863F7 /* FrontController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontController.swift; sourceTree = "<group>"; };
+		5B0E342222C5F13300C863F7 /* 拦截过滤器模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "拦截过滤器模式.md"; sourceTree = "<group>"; };
+		5B0E342322C5F15400C863F7 /* InterceptingFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterceptingFilter.swift; sourceTree = "<group>"; };
+		5B0E342622C5F4F300C863F7 /* 服务定位器模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "服务定位器模式.md"; sourceTree = "<group>"; };
+		5B0E342922C5F70C00C863F7 /* ServiceLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		5B0E342C22C5F8C000C863F7 /* 传输对象模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "传输对象模式.md"; sourceTree = "<group>"; };
+		5B0E342D22C5F8DF00C863F7 /* StudentVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentVO.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B0E339122C34EE200C863F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B0E338B22C34EE200C863F7 = {
+			isa = PBXGroup;
+			children = (
+				5B0E339622C34EE200C863F7 /* Design patterns */,
+				5B0E339522C34EE200C863F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B0E339522C34EE200C863F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E339422C34EE200C863F7 /* Design patterns.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B0E339622C34EE200C863F7 /* Design patterns */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E342B22C5F8B700C863F7 /* 传输对象模式 */,
+				5B0E342522C5F4EA00C863F7 /* 服务定位器模式 */,
+				5B0E342122C5F12800C863F7 /* 拦截过滤器模式 */,
+				5B0E341D22C5EED500C863F7 /* 前端控制器模式 */,
+				5B0E341922C5EAE500C863F7 /* 数据访问对象模式 */,
+				5B0E341422C5E5AE00C863F7 /* 组合实体模式 */,
+				5B0E341022C5E1FA00C863F7 /* 业务代表模式 */,
+				5B0E340C22C5C5EA00C863F7 /* MVC模式 */,
+				5B0E340822C5C24000C863F7 /* 访问者模式 */,
+				5B0E340422C5C01F00C863F7 /* 模板模式 */,
+				5B0E340022C5BDE600C863F7 /* 策略模式 */,
+				5B0E33FC22C5BABD00C863F7 /* 空对象模式 */,
+				5B0E33F822C5B75000C863F7 /* 状态模式 */,
+				5B0E33F422C5B2B000C863F7 /* 观察者模式 */,
+				5B0E33F022C5AE9700C863F7 /* 备忘录模式 */,
+				5B0E33EC22C5AC2900C863F7 /* 中介者模式 */,
+				5B0E33E822C5A70900C863F7 /* 迭代器模式 */,
+				5B0E33E422C5A27900C863F7 /* 解释器模式 */,
+				5B0E33E022C4BB5000C863F7 /* 命令模式 */,
+				5B0E33DC22C4B70700C863F7 /* 责任链模式 */,
+				5B0E33D822C4B18900C863F7 /* 代理模式 */,
+				5B0E33D422C49AB900C863F7 /* 享元模式 */,
+				5B0E33D022C46B1600C863F7 /* 外观模式 */,
+				5B0E33CC22C466E400C863F7 /* 装饰器模式 */,
+				5B0E33C822C461BB00C863F7 /* 组合模式 */,
+				5B0E33C422C45CFC00C863F7 /* 过滤器模式 */,
+				5B0E33C022C457BF00C863F7 /* 桥接模式 */,
+				5B0E33BC22C4537500C863F7 /* 适配器模式 */,
+				5B0E33B822C36D2100C863F7 /* 原型模式 */,
+				5B0E33B422C3657400C863F7 /* 建造者模式 */,
+				5B0E33B122C3649400C863F7 /* 单例模式 */,
+				5B0E33AD22C35B0400C863F7 /* 抽象工厂模式 */,
+				5B0E33A922C34EF400C863F7 /* 工厂模式 */,
+				5B0E339722C34EE200C863F7 /* AppDelegate.swift */,
+				5B0E339922C34EE200C863F7 /* ViewController.swift */,
+				5B0E339B22C34EE200C863F7 /* Main.storyboard */,
+				5B0E339E22C34EE700C863F7 /* Assets.xcassets */,
+				5B0E33A022C34EE700C863F7 /* LaunchScreen.storyboard */,
+				5B0E33A322C34EE700C863F7 /* Info.plist */,
+			);
+			path = "Design patterns";
+			sourceTree = "<group>";
+		};
+		5B0E33A922C34EF400C863F7 /* 工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33AA22C34F0B00C863F7 /* 工厂模式.md */,
+				5B0E33AB22C356F900C863F7 /* FactoryCar.swift */,
+			);
+			path = "工厂模式";
+			sourceTree = "<group>";
+		};
+		5B0E33AD22C35B0400C863F7 /* 抽象工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33AE22C35B1100C863F7 /* 抽象工厂模式.md */,
+				5B0E33AF22C35D2F00C863F7 /* AbstractFactory.swift */,
+			);
+			path = "抽象工厂模式";
+			sourceTree = "<group>";
+		};
+		5B0E33B122C3649400C863F7 /* 单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33B222C364AA00C863F7 /* Instances.swift */,
+			);
+			path = "单例模式";
+			sourceTree = "<group>";
+		};
+		5B0E33B422C3657400C863F7 /* 建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33B522C365B200C863F7 /* 建造者模式.md */,
+				5B0E33B622C367B500C863F7 /* Store.swift */,
+			);
+			path = "建造者模式";
+			sourceTree = "<group>";
+		};
+		5B0E33B822C36D2100C863F7 /* 原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33B922C36D3D00C863F7 /* 原型模式.md */,
+				5B0E33BA22C36E1000C863F7 /* Cell.swift */,
+			);
+			path = "原型模式";
+			sourceTree = "<group>";
+		};
+		5B0E33BC22C4537500C863F7 /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33BD22C4538C00C863F7 /* 适配器模式.md */,
+				5B0E33BE22C4547700C863F7 /* MediaPlayer.swift */,
+			);
+			path = "适配器模式";
+			sourceTree = "<group>";
+		};
+		5B0E33C022C457BF00C863F7 /* 桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33C122C457D000C863F7 /* 桥接模式.md */,
+				5B0E33C222C4587500C863F7 /* Pig.swift */,
+			);
+			path = "桥接模式";
+			sourceTree = "<group>";
+		};
+		5B0E33C422C45CFC00C863F7 /* 过滤器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33C522C45D0D00C863F7 /* 过滤器模式.md */,
+				5B0E33C622C45D4700C863F7 /* FilterPattern.swift */,
+			);
+			path = "过滤器模式";
+			sourceTree = "<group>";
+		};
+		5B0E33C822C461BB00C863F7 /* 组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33C922C461C800C863F7 /* 组合模式.md */,
+				5B0E33CA22C4636500C863F7 /* Composite.swift */,
+			);
+			path = "组合模式";
+			sourceTree = "<group>";
+		};
+		5B0E33CC22C466E400C863F7 /* 装饰器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33CD22C466F600C863F7 /* 装饰器模式.md */,
+				5B0E33CE22C4681700C863F7 /* MonkeyKing.swift */,
+			);
+			path = "装饰器模式";
+			sourceTree = "<group>";
+		};
+		5B0E33D022C46B1600C863F7 /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33D122C46B2300C863F7 /* 外观模式.md */,
+				5B0E33D222C46CA700C863F7 /* Facade.swift */,
+			);
+			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		5B0E33D422C49AB900C863F7 /* 享元模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33D522C49AE100C863F7 /* 享元模式.md */,
+				5B0E33D622C49FED00C863F7 /* Flyweight.swift */,
+			);
+			path = "享元模式";
+			sourceTree = "<group>";
+		};
+		5B0E33D822C4B18900C863F7 /* 代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33D922C4B19200C863F7 /* 代理模式.md */,
+				5B0E33DA22C4B22500C863F7 /* ProxyPattern.swift */,
+			);
+			path = "代理模式";
+			sourceTree = "<group>";
+		};
+		5B0E33DC22C4B70700C863F7 /* 责任链模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33DD22C4B72D00C863F7 /* 责任链模式.md */,
+				5B0E33DE22C4B78400C863F7 /* AbstractLogger.swift */,
+			);
+			path = "责任链模式";
+			sourceTree = "<group>";
+		};
+		5B0E33E022C4BB5000C863F7 /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33E122C4BB6100C863F7 /* 命令模式.md */,
+				5B0E33E222C4BBDC00C863F7 /* CommandPattern.swift */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		5B0E33E422C5A27900C863F7 /* 解释器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33E522C5A28900C863F7 /* 解释器模式.md */,
+				5B0E33E622C5A4BD00C863F7 /* Interpreter.swift */,
+			);
+			path = "解释器模式";
+			sourceTree = "<group>";
+		};
+		5B0E33E822C5A70900C863F7 /* 迭代器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33E922C5A72000C863F7 /* 迭代器模式.md */,
+				5B0E33EA22C5A7AD00C863F7 /* Iterator.swift */,
+			);
+			path = "迭代器模式";
+			sourceTree = "<group>";
+		};
+		5B0E33EC22C5AC2900C863F7 /* 中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33ED22C5AC4700C863F7 /* 中介者模式.md */,
+				5B0E33EE22C5ACBC00C863F7 /* Mediator.swift */,
+			);
+			path = "中介者模式";
+			sourceTree = "<group>";
+		};
+		5B0E33F022C5AE9700C863F7 /* 备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33F122C5AEA700C863F7 /* 备忘录模式.md */,
+				5B0E33F222C5AFDA00C863F7 /* Memento.swift */,
+			);
+			path = "备忘录模式";
+			sourceTree = "<group>";
+		};
+		5B0E33F422C5B2B000C863F7 /* 观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33F522C5B2C000C863F7 /* 观察者模式.md */,
+				5B0E33F622C5B33D00C863F7 /* Observer.swift */,
+			);
+			path = "观察者模式";
+			sourceTree = "<group>";
+		};
+		5B0E33F822C5B75000C863F7 /* 状态模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33F922C5B75D00C863F7 /* 状态模式.md */,
+				5B0E33FA22C5B84F00C863F7 /* State.swift */,
+			);
+			path = "状态模式";
+			sourceTree = "<group>";
+		};
+		5B0E33FC22C5BABD00C863F7 /* 空对象模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E33FD22C5BACA00C863F7 /* 空对象模式.md */,
+				5B0E33FE22C5BB2C00C863F7 /* NullObject.swift */,
+			);
+			path = "空对象模式";
+			sourceTree = "<group>";
+		};
+		5B0E340022C5BDE600C863F7 /* 策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E340122C5BDF400C863F7 /* 策略模式.md */,
+				5B0E340222C5BE4100C863F7 /* Strategy.swift */,
+			);
+			path = "策略模式";
+			sourceTree = "<group>";
+		};
+		5B0E340422C5C01F00C863F7 /* 模板模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E340522C5C02B00C863F7 /* 模板模式.md */,
+				5B0E340622C5C09A00C863F7 /* Template.swift */,
+			);
+			path = "模板模式";
+			sourceTree = "<group>";
+		};
+		5B0E340822C5C24000C863F7 /* 访问者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E340922C5C24D00C863F7 /* 访问者模式.md */,
+				5B0E340A22C5C2B500C863F7 /* Visitor.swift */,
+			);
+			path = "访问者模式";
+			sourceTree = "<group>";
+		};
+		5B0E340C22C5C5EA00C863F7 /* MVC模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E340D22C5C5FB00C863F7 /* MVC模式.md */,
+				5B0E340E22C5C61D00C863F7 /* MVC.swift */,
+			);
+			path = "MVC模式";
+			sourceTree = "<group>";
+		};
+		5B0E341022C5E1FA00C863F7 /* 业务代表模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E341122C5E20D00C863F7 /* 业务代表模式.md */,
+				5B0E341222C5E22900C863F7 /* Business.swift */,
+			);
+			path = "业务代表模式";
+			sourceTree = "<group>";
+		};
+		5B0E341422C5E5AE00C863F7 /* 组合实体模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E341522C5E5C400C863F7 /* 组合实体模式.md */,
+				5B0E341722C5E60300C863F7 /* CompositeEntityPattern.swift */,
+			);
+			path = "组合实体模式";
+			sourceTree = "<group>";
+		};
+		5B0E341922C5EAE500C863F7 /* 数据访问对象模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E341A22C5EAF200C863F7 /* 数据访问对象模式.md */,
+				5B0E341B22C5EB5E00C863F7 /* Dao.swift */,
+			);
+			path = "数据访问对象模式";
+			sourceTree = "<group>";
+		};
+		5B0E341D22C5EED500C863F7 /* 前端控制器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E341E22C5EEE300C863F7 /* 前端控制器模式.md */,
+				5B0E341F22C5EF5700C863F7 /* FrontController.swift */,
+			);
+			path = "前端控制器模式";
+			sourceTree = "<group>";
+		};
+		5B0E342122C5F12800C863F7 /* 拦截过滤器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E342222C5F13300C863F7 /* 拦截过滤器模式.md */,
+				5B0E342322C5F15400C863F7 /* InterceptingFilter.swift */,
+			);
+			path = "拦截过滤器模式";
+			sourceTree = "<group>";
+		};
+		5B0E342522C5F4EA00C863F7 /* 服务定位器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E342622C5F4F300C863F7 /* 服务定位器模式.md */,
+				5B0E342922C5F70C00C863F7 /* ServiceLocator.swift */,
+			);
+			path = "服务定位器模式";
+			sourceTree = "<group>";
+		};
+		5B0E342B22C5F8B700C863F7 /* 传输对象模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E342C22C5F8C000C863F7 /* 传输对象模式.md */,
+				5B0E342D22C5F8DF00C863F7 /* StudentVO.swift */,
+			);
+			path = "传输对象模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B0E339322C34EE200C863F7 /* Design patterns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0E33A622C34EE700C863F7 /* Build configuration list for PBXNativeTarget "Design patterns" */;
+			buildPhases = (
+				5B0E339022C34EE200C863F7 /* Sources */,
+				5B0E339122C34EE200C863F7 /* Frameworks */,
+				5B0E339222C34EE200C863F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Design patterns";
+			productName = "Design patterns";
+			productReference = 5B0E339422C34EE200C863F7 /* Design patterns.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B0E338C22C34EE200C863F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Chuck;
+				TargetAttributes = {
+					5B0E339322C34EE200C863F7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B0E338F22C34EE200C863F7 /* Build configuration list for PBXProject "Design patterns" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B0E338B22C34EE200C863F7;
+			productRefGroup = 5B0E339522C34EE200C863F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B0E339322C34EE200C863F7 /* Design patterns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B0E339222C34EE200C863F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0E33A222C34EE700C863F7 /* LaunchScreen.storyboard in Resources */,
+				5B0E339F22C34EE700C863F7 /* Assets.xcassets in Resources */,
+				5B0E339D22C34EE200C863F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B0E339022C34EE200C863F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0E33F722C5B33D00C863F7 /* Observer.swift in Sources */,
+				5B0E33E722C5A4BD00C863F7 /* Interpreter.swift in Sources */,
+				5B0E33B022C35D2F00C863F7 /* AbstractFactory.swift in Sources */,
+				5B0E33BF22C4547700C863F7 /* MediaPlayer.swift in Sources */,
+				5B0E33DB22C4B22500C863F7 /* ProxyPattern.swift in Sources */,
+				5B0E33DF22C4B78400C863F7 /* AbstractLogger.swift in Sources */,
+				5B0E342A22C5F70C00C863F7 /* ServiceLocator.swift in Sources */,
+				5B0E33AC22C356F900C863F7 /* FactoryCar.swift in Sources */,
+				5B0E342422C5F15400C863F7 /* InterceptingFilter.swift in Sources */,
+				5B0E33D722C49FED00C863F7 /* Flyweight.swift in Sources */,
+				5B0E33CF22C4681700C863F7 /* MonkeyKing.swift in Sources */,
+				5B0E33FB22C5B84F00C863F7 /* State.swift in Sources */,
+				5B0E341C22C5EB5E00C863F7 /* Dao.swift in Sources */,
+				5B0E33C322C4587500C863F7 /* Pig.swift in Sources */,
+				5B0E33BB22C36E1000C863F7 /* Cell.swift in Sources */,
+				5B0E33B322C364AA00C863F7 /* Instances.swift in Sources */,
+				5B0E33EB22C5A7AD00C863F7 /* Iterator.swift in Sources */,
+				5B0E340F22C5C61D00C863F7 /* MVC.swift in Sources */,
+				5B0E341822C5E60300C863F7 /* CompositeEntityPattern.swift in Sources */,
+				5B0E33CB22C4636500C863F7 /* Composite.swift in Sources */,
+				5B0E341322C5E22900C863F7 /* Business.swift in Sources */,
+				5B0E340722C5C09A00C863F7 /* Template.swift in Sources */,
+				5B0E340322C5BE4100C863F7 /* Strategy.swift in Sources */,
+				5B0E33E322C4BBDC00C863F7 /* CommandPattern.swift in Sources */,
+				5B0E33EF22C5ACBC00C863F7 /* Mediator.swift in Sources */,
+				5B0E33F322C5AFDA00C863F7 /* Memento.swift in Sources */,
+				5B0E33C722C45D4700C863F7 /* FilterPattern.swift in Sources */,
+				5B0E33B722C367B500C863F7 /* Store.swift in Sources */,
+				5B0E339A22C34EE200C863F7 /* ViewController.swift in Sources */,
+				5B0E33FF22C5BB2C00C863F7 /* NullObject.swift in Sources */,
+				5B0E33D322C46CA700C863F7 /* Facade.swift in Sources */,
+				5B0E342E22C5F8DF00C863F7 /* StudentVO.swift in Sources */,
+				5B0E342022C5EF5700C863F7 /* FrontController.swift in Sources */,
+				5B0E340B22C5C2B500C863F7 /* Visitor.swift in Sources */,
+				5B0E339822C34EE200C863F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B0E339B22C34EE200C863F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B0E339C22C34EE200C863F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B0E33A022C34EE700C863F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B0E33A122C34EE700C863F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B0E33A422C34EE700C863F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B0E33A522C34EE700C863F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B0E33A722C34EE700C863F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Design patterns/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.china.app.jack.Design-patterns";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B0E33A822C34EE700C863F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Design patterns/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.china.app.jack.Design-patterns";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B0E338F22C34EE200C863F7 /* Build configuration list for PBXProject "Design patterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0E33A422C34EE700C863F7 /* Debug */,
+				5B0E33A522C34EE700C863F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0E33A622C34EE700C863F7 /* Build configuration list for PBXNativeTarget "Design patterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0E33A722C34EE700C863F7 /* Debug */,
+				5B0E33A822C34EE700C863F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B0E338C22C34EE200C863F7 /* Project object */;
+}
